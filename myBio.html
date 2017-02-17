@@ -1,9 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 	<title>My Bio</title>
 
 	<style>
+	
+body{ margin: 0;
+		padding: 0;
+		background-color: #efeee7;
+		font-family: Georgia, "Times New Roman", Times, Serif; }
+
+header{ background-color: #111a32; 
+		color:#d1d1d1;
+		text-align: center;
+		height:75px;
+		vertical-align: middle;
+		line-height: 75px;
+		font-size: 25px;}
+
+
+.contianer{ margin: 0 auto; }
+
+#mainBio{ float: left; 
+			width: 60%;
+			margin:10px;
+			padding:5px;}
+
+#mainBio p {  }
+
+#bioImage{  float: left;
+			height: 200px;
+			width: 175px;
+			margin:5px;}
+
+#contactInfo{  float: left; 
+				padding:5px;}
 
 
 
@@ -15,32 +47,34 @@
 <body>
 
 
-
+<header>
 <h1>Student Bio</h1>
+</header>
+
+<div class="container">
+
+	<Section id="mainBio">
+
+	<h2> Andy Patrick</h2>
+	<img id= "bioImage" src="myPhoto.png" alt="Andy">
 
 
 
+	<p> I am originally from Alpharetta, GA. Went to Appalachian State University bofore moving to Charlotte. Now Work at Maersk Line but am looking to change careers.</p>
 
-<h2> Andy Patrick</h2>
-<img src="http://archive.rusbase.com/media/upload_tmp/student_survey4.jpg" height="200px" width="200px">
+	</Section>
 
+	<section id="contactInfo">
+	<h2> Contact Info</h2>
 
+	<ul>
+		<li><strong>Email</strong> : andyepatrick@gmail.com</li>
+		<li> <strong>GitHub </strong>: <a href="https://github.com/Patrickae">Patrickae</a></li>
+		<li> <strong>Portfolio:</strong> <a href="https://pathbrite.com/portfolio/PXiFPyq/collection-of-example-portfolios">Link to my portfolio</a></li>
+	</ul>
 
-<p> I am originally from Alpharetta, GA. Went to Appalachian State University bofore moving to Charlotte. Now Work at Maersk Line but am looking to change careers.</p>
+	</section>
 
-
-
-
-<h2> Contact Info</h2>
-
-<ul>
-	<li><strong>Email</strong> : andyepatrick@gmail.com</li>
-	<li> <strong>GitHub </strong>: <a href="https://github.com/Patrickae"></a></li>
-	<li> <strong>Portfolio: <a href="https://pathbrite.com/portfolio/PXiFPyq/collection-of-example-portfolios"></a></strong></li>
-</ul>
-
-
-
-
+</div>
 </body>
 </html>
