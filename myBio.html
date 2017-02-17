@@ -26,8 +26,24 @@ header{ background-color: #111a32;
 			width: 60%;
 			margin:10px;
 			padding:5px;}
+hr.style1 {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style1:after{
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    
+}
 
-#mainBio p {  }
+
 
 #bioImage{  float: left;
 			height: 200px;
@@ -35,7 +51,7 @@ header{ background-color: #111a32;
 			margin:5px;}
 
 #contactInfo{  float: left; 
-				padding:5px;}
+				}
 
 
 
@@ -49,7 +65,10 @@ header{ background-color: #111a32;
 
 <header>
 <h1>Student Bio</h1>
+
 </header>
+
+
 
 <div class="container">
 
@@ -60,7 +79,9 @@ header{ background-color: #111a32;
 
 
 
-	<p> I am originally from Alpharetta, GA. Went to Appalachian State University bofore moving to Charlotte. Now Work at Maersk Line but am looking to change careers.</p>
+	<p> I am originally from Alpharetta, GA. Went to Appalachian State University before moving to Charlotte. Now Work at Maersk Line but am looking to change careers.</p>
+	
+	<hr class="style1">
 
 	</Section>
 
@@ -69,8 +90,8 @@ header{ background-color: #111a32;
 
 	<ul>
 		<li><strong>Email</strong> : andyepatrick@gmail.com</li>
-		<li> <strong>GitHub </strong>: <a href="https://github.com/Patrickae">Patrickae</a></li>
-		<li> <strong>Portfolio:</strong> <a href="https://pathbrite.com/portfolio/PXiFPyq/collection-of-example-portfolios">Link to my portfolio</a></li>
+		<li> <strong>GitHub </strong>: <a href="https://github.com/Patrickae" target="_blank">Patrickae</a></li>
+		<li> <strong>Portfolio:</strong> <a href="https://pathbrite.com/portfolio/PXiFPyq/collection-of-example-portfolios" target="_blank">Link to my portfolio</a></li>
 	</ul>
 
 	</section>
